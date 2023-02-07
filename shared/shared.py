@@ -23,8 +23,6 @@ def space_compress(stocomp):
 
 
 def foobar(input_int):
-    assert isinstance(input_int, int), "Expected integer but got {} instead".format(type(input_int))
-
     if(input_int%5 == 0 and input_int%3 == 0):
         return 'FooBar'
     elif(input_int%3 == 0):
