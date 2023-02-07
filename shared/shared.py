@@ -27,7 +27,7 @@ def foobar(input_int):
         return 'FooBar'
     elif(input_int%3 == 0):
         return 'Foo'
-    elif(input_int%3 == 0):
-        return 'Foo'
+    elif(input_int%5 == 0):
+        return 'Bar'
     else:
         return str(input_int)
