@@ -21,8 +21,6 @@ def space_compress(stocomp):
     comp = re.sub(r'\s+', ' ', stocomp)
     return comp.strip()
 
-def new_func():
-    pass
 
 def foobar(input_int):
     assert isinstance(input_int, int), "Expected integer but got {} instead".format(type(input_int))
